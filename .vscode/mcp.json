@@ -3,6 +3,20 @@
     "github": {
       "type": "http",
       "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "puppeteer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    },
+    "screenshot": {
+      "command": "uv",
+      "args": [
+        "run",
+        "main.py"
+      ]
     }
   }
 }
